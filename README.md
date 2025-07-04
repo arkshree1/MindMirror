@@ -47,30 +47,35 @@ Follow the steps below to run the project locally.
 
 ### 1. Clone the Repository
 
-
+```bash
 git clone https://github.com/your-username/MindMirror.git
 cd MindMirror
+
+
 2. Set Up the Backend
 cd server
 npm install
+
+
 
 Create a .env file:
 MONGODB_URI=your-mongodb-uri
 JWT_SECRET=your-jwt-secret
 PORT=5000
 OPENAI_API_KEY=your-openai-api-key
-
 Start the backend server:
 npm run dev
+
+
 
 3. Set Up the Frontend
 cd ../client
 npm install
 npm start
-
+```
 The app will be available at http://localhost:3000.
 
-Usage
+## Usage
 On the homepage, users are prompted to write how they feel.
 
 After submitting the journal, the AI responds with relevant feedback based on tone and emotional content.
